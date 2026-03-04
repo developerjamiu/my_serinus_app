@@ -19,4 +19,4 @@ COPY --from=build /app/output/bundle/ /app/
 
 EXPOSE 8080
 
-CMD ["/app/bin/server"]
+CMD ["/app/bin/my_serinus_app"]
